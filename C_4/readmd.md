@@ -66,3 +66,25 @@ int main()
 }
 
 ```
+
+
+```C
+#include<stdio.h>
+
+int main()
+{
+    int n1, n2;
+
+    printf("값을 입력하시오 : %d\n",n1);
+    scanf("%d",&one)
+
+    printf("두번째 값을 입력하시오 : %d\n",n2);
+    scanf("%d",two);
+
+    int n3 = n1 * (n2 % 10);
+    int n4 = n1 * (n2 %10 %10);
+    int n5 = n1 * (n2 %100);
+
+    printf(첫번째 값 = )
+}
+```
