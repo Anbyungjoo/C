@@ -51,7 +51,9 @@ int main(void)
     printf("짝수입니다."); //나누어 떨어지면 짝수
    }
     else
+    [
     printf("홀수입니다."); //나누어 떨어지지 않으면 홀수
+    }
    return 0;
 }
 ```
