@@ -93,24 +93,22 @@ int main(void)
 
 int main(void)
 {
-    char a, b;
+    int a, b;
     printf("두 문자를 입력하시오 :");
-    scanf("&d, %d",&a, &b);
+    scanf("%d, %d",&a, &b);
 
     if (a > b)
     {
-        printf("<\n");
+        printf(">\n");
     }
     else if (a < b)
     {
-        printf(">\n");
+        printf("<\n");
     }
-    else if
+    else
     {
         printf("=\n");
     }
     return 0;
 }
 ```
-
-위 코드는 실행안되니까 수정요망
