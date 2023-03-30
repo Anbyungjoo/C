@@ -1,4 +1,4 @@
-``c
+```c
 #include<stdio.h>
 
 int main(void)
@@ -13,4 +13,4 @@ int main(void)
     printf("c=%d, i=%d, f=%f\n",c,i,f);
     return 0;
 }
-``
+```
