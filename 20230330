@@ -36,3 +36,22 @@ int main(void)
     return 0;
 }
 ```
+
+```C
+#include<stdio.h>
+
+int main(void)
+{
+    int number;
+    printf("정수를 입력하시오 :");
+    scanf("%d",&number);
+
+   if (number % 2 ==0) //나누기는 % <-이거임, number 변수를 2로 나누었을때 0으로 나누어 떨어지는가
+   {
+    printf("짝수입니다."); //나누어 떨어지면 짝수
+   }
+    else
+    printf("홀수입니다."); //나누어 떨어지지 않으면 홀수
+   return 0;
+}
+```
