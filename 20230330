@@ -86,3 +86,31 @@ int main(void)
         printf("%c는 기타문자 입니다.\n",ch);
     }
     ```
+
+
+```c
+#include<stdio.h>
+
+int main(void)
+{
+    char a, b;
+    printf("두 문자를 입력하시오 :");
+    scanf("&d, %d",&a, &b);
+
+    if (a > b)
+    {
+        printf("<\n");
+    }
+    else if (a < b)
+    {
+        printf(">\n");
+    }
+    else if
+    {
+        printf("=\n");
+    }
+    return 0;
+}
+```
+
+위 코드는 실행안되니까 수정요망
