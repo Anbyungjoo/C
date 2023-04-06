@@ -1,0 +1,127 @@
+#include<stdio.h>
+
+int main(void)
+{
+    char op;  //문자형 변수
+    int x, y, result;  // 숫자형 변수
+    printf("수식을 입력하시오(예 : 2+5)>>");
+    scanf("%d %c %d",&x,&op,&y);  //숫자 문자 숫자로 입력받기
+
+    if (op=='+') // if 뒤에는 세메콜론 필요 없음 if 뒤에는 중괄호 반드시 붙이기.
+    {
+    result=x+y;
+    }
+    else if (op=='-')
+    {
+    result=x-y;
+    }
+    else if (op=='*')
+    {
+    result=x*y;
+    }
+    else if (op=='/')
+    {
+    result=x/y;
+    }
+    else if(op=='%')
+    {
+    result=x%y;
+    }
+    printf("%d %c %d=%d\n", x, op, y, result);  // 마지막으로 입력받은 변수들을 계산하여 출력
+    return 0;
+}
+
+
+
+#include<stdio.h>  // 구구단 2단을 출력하는 코드
+
+int main(void)
+{
+    int i = 1; //2단을 시작할 변수를 입력한다
+
+     
+     while (i<=9) //2 * i의 i 의 한계 9를 입력한다
+     {
+     printf("2*%d=%d\n",i,2*i); //2곱하기 변수=변수, 변수값은 i값과 2에서 i를 곱한 값을 입력한다.
+     i++;  //i에 1을 더하고 while로 이동한다.
+     }
+    return 0;
+
+}
+
+
+
+#include<stdio.h>
+
+int main(void)
+{
+    int i, n, sum; //
+    printf("정수를 입력하시오:");
+    scanf("%d",&n);
+
+    while(i<=n)
+    {
+        sum+=i;
+        i++;
+    }
+    printf("1부터 %d까지의 합은 %d입니다\n",n, sum);
+    return 0;
+
+}
+
+
+
+int main(void)  //짝수합 근데 이거 안됨 재확인
+{
+    int i, n, sum; 
+    printf("정수를 입력하시오:");
+    scanf("%d",&n);
+
+    while(i<=n)
+    {
+        if(i%2==0)
+        {
+        sum+=i;
+        }
+        i++;
+    }
+    printf("1부터 %d까지의 짝수합은 %d입니다\n",n, sum);
+    return 0;
+
+}
+
+
+#include<stdio.h>
+
+int main(void)
+{
+    int n, i=0, sum=0;
+
+    while(i<5)
+    {
+        printf("값을 입력하시오 :");
+        scanf("%d",&n);
+        sum+=n;
+        i++;
+    }
+    printf("합계는 %d입니다.",sum);
+    return 0;
+}
+}
+
+#include<stdio.h> //몇 번 계산할건지 입력받고 숫자 입력받으면 계산하는 식
+
+int main(void)
+{
+    int n,i=1,a,b;
+    scanf("%d",&n);
+
+    while(i<=n)
+    {
+        scanf("%d %d",&a,&b);
+        printf("%d\n",a+b);
+      i++;
+    }
+    return 0;
+
+}
