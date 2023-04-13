@@ -1,4 +1,4 @@
-<pre><code>```c
+```c
 #include<stdio.h>
 
 int main() // 백준 알고리즘 10952번
@@ -15,7 +15,7 @@ int main() // 백준 알고리즘 10952번
     }
     return 0;
 }
-```</code></pre>
+```
 
 ```c
 #include<stdio.h>
