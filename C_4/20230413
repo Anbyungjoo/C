@@ -1,15 +1,15 @@
 ```c
 #include<stdio.h>
 
-int main() //백준 알고리즘 10952번
+int main() // 백준 알고리즘 10952번
 {
   int x, y;
     while (1)
     {
         scanf("%d %d",&x,&y);
-        if(x == 0&& y==0)
+        if(x == 0 && y==0) //x조건이 참이고 y조건이 참일때
         {
-            break;
+            break; //빠져나온다
         }
         printf("%d\n",x+y);
     }
