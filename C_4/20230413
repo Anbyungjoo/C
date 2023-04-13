@@ -16,3 +16,21 @@ int main() // 백준 알고리즘 10952번
     return 0;
 }
 ```
+
+
+```c
+#include<stdio.h>
+
+
+int main()
+{
+    void print_stars() //print_stars라는 변수를 새로 정의
+    {
+        for(int i=0; i<30; i++) //i의 변수는 0으로 지정하고 i가 30이하일때 i가30일 될때까지 더해라
+        printf("*");
+    }
+    print_stars();
+    printf("\nHello World!\n");
+    print_stars();
+}
+```
