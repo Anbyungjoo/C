@@ -40,7 +40,7 @@ int main()
 
 int max(int x, int y)
 
-(xn> y? return x : return y);
+return x> y ? x :  y;
 
 int main()
 {
