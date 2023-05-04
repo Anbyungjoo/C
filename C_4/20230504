@@ -17,7 +17,7 @@ int main(){
           else
           printf("*");
         }
-        printf("\n");
+        printf("\n");   //내부 반복문이 종료될때마다 실행
     }
     return 0;
 }
