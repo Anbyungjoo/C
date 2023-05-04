@@ -49,3 +49,24 @@ int main(){
     printf("두 정수의 합은 %d입니다.", sum);
     return 0;
 }
+
+
+-----------------------------------------------------------
+#include<stdio.h>
+
+int factorial(int n){
+    if(n==0)
+    return 1;
+    else
+        return n*factorial(n-1);
+}
+int main(){
+    int n;
+    printf("수를 입력하세요:");
+    scanf("%d",&n);
+    printf("%d",factorial(n));
+
+    return 0;
+}
+
+// 재귀함수
