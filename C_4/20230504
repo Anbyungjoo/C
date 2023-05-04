@@ -1,13 +1,17 @@
+
+
 ```c
+//오른쪽 정렬로 피라미드를 쌓는 코드
+//이중 반복문 사용
 #include<stdio.h>
 
 int main(){
     int n;
     scanf("%d",&n);
     
-    for (int i = 0; i < n; i++){
-        for (int j = 0; j < n; j++){
-        if (j<n-i-1){
+    for (int i = 0; i < n; i++){    //i가 n보다 작으면 반복
+        for (int j = 0; j < n; j++){    //j가 n보다 작으면 반복
+        if (j<n-i-1){   //j가 n에서 i와 1를 뺀 값보다 작으면 " "을 출력 아니면 "*"을 출력
             printf(" ");
         }
           else
@@ -15,5 +19,5 @@ int main(){
         }
         printf("\n");
     }
+    return 0;
 }
-```c
